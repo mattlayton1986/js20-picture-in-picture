@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture-In-Picture</title>
+  <link rel="icon" type="image/png" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Video -->
+  <video id="video" controls height="360" width="640" hidden></video>
+  <!-- Button -->
+  <div class="button-container">
+    <button id="button">START</button>
+  </div>
+  <!-- Browser Support Warning -->
+  <div id="browser-support">
+    <p>Note: This project uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API" target="_blank">Screen Capture</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Picture-in-Picture_API">Picture-In-Picture</a> Web APIs. At the time of this writing (<time datetime="2021-11">Nov. 2021</time>), browser support for these APIs is less than 100%, particularly for Internet Explorer, Firefox, and Android mobile browsers. Please use desktop Chrome for the best experience.</p>
+  </div>
+  <!-- Script  -->
+  <script src="script.js"></script>
+</body>
+</html>
